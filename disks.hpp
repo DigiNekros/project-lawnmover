@@ -175,7 +175,7 @@ sorted_disks sort_alternate(const disk_state& before) {
   /*
   int numOfSwap = 0;
   disk_state state = before;
-  for i to state's total count + 1 do
+  for int i = 0 to state's total count + 1 do
     if i % 2 == 0 do
       for int index = 0 to total count - 1 so that index = index + 2 do
         if current disk != next disk
@@ -229,7 +229,6 @@ sorted_disks sort_alternate(const disk_state& before) {
 
 // Algorithm that sorts disks using the lawnmower algorithm.
 sorted_disks sort_lawnmower(const disk_state& before) {
-  /*TO-DO: Make pseudocode for this algorithm, see document to figure it out, and implement*/
   // Pseudocode:
   /*
   int numOfSwap = 0;
