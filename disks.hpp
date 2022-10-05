@@ -233,9 +233,9 @@ sorted_disks sort_lawnmower(const disk_state& before) {
   /*
   int numOfSwap = 0;
   disk_state state = before;
-  for int i = 0 to all lights do
+  for int i = 0 to n / 2 do
     int index = 0;
-    while index + 1 < all disks do
+    while index + 1 < n do
       if current disk != next disk do
         if current disk == dark disk && next disk == light disk do
           swap disks
